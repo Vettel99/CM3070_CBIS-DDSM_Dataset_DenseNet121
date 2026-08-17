@@ -18,7 +18,7 @@ To guarantee absolute scientific reproducibility, this project utilizes the publ
 This pipeline is optimized for Google Colab utilizing an L4 GPU due to the 512x512 high-resolution image processing requirements.
 
 1. Clone this repository.
-2. Upload the `CM3070_Feature_Prototype.ipynb` file to Google Colab.
+2. Upload the `CM3070_Feature_Prototype_DenseNet121.ipynb` file to Google Colab.
 3. Navigate to **Runtime > Change runtime type** and select **L4 GPU**.
 4. Run all cells. The script will automatically install dependencies, download the dataset, and commence the two-stage training loop.
 
